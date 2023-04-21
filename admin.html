@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+	<link rel="stylesheet" href="css/imc.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="imcAdmin.php">IMC</a></li>
+                <li><a href="visite.php">Voir les visites</a></li>
+                <li><a href="admin.html">Créer un utilisateur</a></li>
+                <li><a href="resultat.php">Resultat</a></li>
+                <li><a href="deconnexion.php">Déconnexion</a></li>
+            </ul>
+        </nav>
+        <h1>Accueil</h1>
+
+        <form method="post" action="include/creation-utilisateur.php">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom"><br>
+          
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom"><br>
+          
+            <label for="age">Âge :</label>
+            <input type="number" id="age" name="age"><br>
+          
+            <label for="login">Login :</label>
+            <input type="text" id="login" name="login"><br>
+          
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="mdp" name="mdp"><br><br>
+
+            <label for="admin">Administrateur du site :</label>
+            <select name="estAdmin">
+                <option value="1">Oui</option>
+                <option value="0">Non</option>
+              </select><br><br><br>
+          
+            <input type="submit" value="Créer l'utilisateur">
+          </form>
+          
+          
+    </body>
+</html>

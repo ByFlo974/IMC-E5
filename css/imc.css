@@ -1,0 +1,153 @@
+/*
+	Mini-projet IMC
+*/
+
+body {
+	background-color: #333;
+	text-align: center;
+}
+
+form {
+	margin: auto;			
+	border: 2px solid red;
+	background-color:#FAFAFA;
+	padding:10px;
+	width:350px;
+	font:bold 24px Arial;
+}
+
+
+table {
+	border: 2px solid red;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	background-color:#FAFAFA;
+	font:bold 24px Arial;
+	text-align: center;
+}
+
+th {
+	background-color:red;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+input {
+	font: 24px Arial;
+}
+ 
+h1 {
+	background-color:#ee6a8c;
+	font:bold;
+}
+
+.boutonJS {
+	border:none;
+	padding:6px;
+	border-radius:8px;
+	background:#ee6a8c;
+	font:bold 20px Arial;
+	color:#fff;
+}
+
+#idIMC {
+	font: 24px Arial;
+}
+
+nav {
+	background-color: #333;
+	height: 50px;
+	padding: 0 20px;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+  }
+  
+  nav ul li {
+	margin: 0 10px;
+  }
+  
+  nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+	background-color: #fff;
+	color: #333;
+  }
+
+  /* Style pour le formulaire de connexion */
+#connexion-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+  }
+  
+  #connexion-form input[type="text"], 
+  #connexion-form input[type="password"] {
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #connexion-form input[type="submit"] {
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style pour le formulaire de création d'utilisateur */
+  #creation-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+  }
+  
+  #creation-form input[type="text"], 
+  #creation-form input[type="password"], 
+  #creation-form input[type="number"] {
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #creation-form input[type="submit"] {
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
